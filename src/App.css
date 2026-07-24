@@ -1,0 +1,276 @@
+/* src/App.css */
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@300;400;600;700&display=swap');
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: 'Inter', sans-serif;
+  background-color: #f8fafc; /* Color más suave de fondo */
+  color: #334155;
+  line-height: 1.8; /* Mayor espacio entre líneas para lectura fácil */
+}
+
+.app-container {
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+}
+
+/* --- Cabecera --- */
+.header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: #0f172a;
+  color: #fff;
+  padding: 1.5rem 2rem;
+}
+
+.logo {
+  font-size: 1.5rem;
+  font-weight: 700;
+  color: #38bdf8;
+  cursor: pointer;
+}
+
+.top-nav {
+  display: flex;
+  gap: 2rem;
+}
+
+.top-nav button {
+  background: none;
+  border: none;
+  color: #cbd5e1;
+  font-size: 1rem;
+  cursor: pointer;
+  transition: color 0.3s;
+  font-family: inherit;
+}
+
+.top-nav button:hover, .top-nav button.active-nav {
+  color: #38bdf8;
+}
+
+/* --- Layout Principal --- */
+.main-layout {
+  display: flex;
+  flex: 1;
+  max-width: 1200px;
+  margin: 0 auto;
+  width: 100%;
+  padding: 2.5rem 1rem;
+  gap: 2.5rem;
+}
+
+/* --- Barra Lateral (Curso) --- */
+.sidebar {
+  flex: 0 0 320px;
+  background: #fff;
+  padding: 2rem 1.5rem;
+  border-radius: 12px;
+  box-shadow: 0 4px 6px -1px rgba(0,0,0,0.05);
+  display: flex;
+  flex-direction: column;
+  align-self: flex-start; /* Evita que se estire verticalmente */
+  position: sticky;
+  top: 2rem; /* Se queda pegada al hacer scroll */
+}
+
+.sidebar h3 {
+  margin-bottom: 1.5rem;
+  padding-bottom: 1rem;
+  border-bottom: 1px solid #e2e8f0;
+  color: #1e293b;
+}
+
+.lesson-list {
+  list-style: none;
+  display: flex;
+  flex-direction: column;
+  gap: 0.8rem;
+}
+
+.lesson-list li {
+  padding: 1rem 1.2rem;
+  background-color: #f8fafc;
+  border-radius: 8px;
+  cursor: pointer;
+  transition: all 0.2s ease;
+  border-left: 4px solid transparent;
+  font-size: 0.95rem;
+}
+
+.lesson-list li:hover {
+  background-color: #f1f5f9;
+}
+
+.lesson-list li.active {
+  background-color: #e0f2fe;
+  border-left: 4px solid #0284c7;
+  font-weight: 600;
+  color: #0369a1;
+}
+
+/* --- Área de Contenido (Curso y Páginas) --- */
+.content-area {
+  flex: 1;
+  background: #fff;
+  padding: 3rem;
+  border-radius: 12px;
+  box-shadow: 0 4px 6px -1px rgba(0,0,0,0.05);
+  display: flex;
+  flex-direction: column;
+}
+
+.content-area h1 {
+  color: #0f172a;
+  margin-bottom: 2rem;
+  font-size: 2.5rem;
+  line-height: 1.2;
+}
+
+/* --- Estilos SEO Inyectados y Mejorados --- */
+.lesson-content h2 {
+  color: #1e293b;
+  margin-top: 3rem;
+  margin-bottom: 1.5rem;
+  font-size: 1.8rem;
+  border-bottom: 2px solid #f1f5f9;
+  padding-bottom: 0.5rem;
+}
+
+.lesson-content h3 {
+  color: #334155;
+  margin-top: 2.5rem;
+  margin-bottom: 1rem;
+  font-size: 1.4rem;
+}
+
+.lesson-content p {
+  margin-bottom: 1.8rem; /* MUCHO MÁS ESPACIO ENTRE PÁRRAFOS */
+  font-size: 1.1rem;
+}
+
+.lesson-content ul, .lesson-content ol {
+  margin-bottom: 2rem;
+  padding-left: 2rem;
+  background-color: #f8fafc;
+  padding: 1.5rem 1.5rem 1.5rem 3rem;
+  border-radius: 8px;
+}
+
+.lesson-content li {
+  margin-bottom: 0.8rem;
+}
+
+/* CAJA DE CONSEJOS (Rompe el texto amontonado) */
+.info-box {
+  background-color: #fffbeb;
+  border-left: 5px solid #f59e0b;
+  padding: 1.5rem;
+  margin: 2rem 0;
+  border-radius: 0 8px 8px 0;
+  color: #92400e;
+}
+.info-box strong { color: #b45309; }
+
+/* IMÁGENES OPTIMIZADAS (No más imágenes gigantes) */
+.content-img {
+  max-width: 100%;
+  max-height: 400px; /* LIMITA LA ALTURA MÁXIMA */
+  width: auto;
+  margin: 2.5rem auto; /* MUCHO ESPACIO ALREDEDOR Y CENTRADA */
+  display: block;
+  border-radius: 8px;
+  box-shadow: 0 10px 25px rgba(0, 0, 0, 0.1);
+  object-fit: contain; /* Evita que los gráficos se recorten */
+}
+
+/* --- Formularios (Página de Contacto) --- */
+.contact-form {
+  display: flex;
+  flex-direction: column;
+  gap: 1.5rem;
+  margin-top: 2rem;
+}
+
+.form-group {
+  display: flex;
+  flex-direction: column;
+  gap: 0.5rem;
+}
+
+.form-group label {
+  font-weight: 600;
+  color: #334155;
+}
+
+.form-group input, .form-group textarea {
+  padding: 0.8rem;
+  border: 1px solid #cbd5e1;
+  border-radius: 6px;
+  font-family: inherit;
+  font-size: 1rem;
+}
+
+.contact-form button {
+  background-color: #0284c7;
+  color: white;
+  padding: 1rem;
+  border: none;
+  border-radius: 6px;
+  font-size: 1.1rem;
+  font-weight: 600;
+  cursor: pointer;
+  transition: background 0.3s;
+}
+
+.contact-form button:hover {
+  background-color: #0369a1;
+}
+
+/* --- AdSense --- */
+.adsense-banner, .adsense-in-article {
+  background-color: #f1f5f9;
+  border: 1px dashed #94a3b8;
+  color: #64748b;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  margin: 2rem auto;
+  border-radius: 4px;
+}
+
+.adsense-banner {
+  width: 100%;
+  max-width: 728px;
+  height: 90px;
+}
+
+.adsense-in-article {
+  width: 100%;
+  height: 250px;
+  margin: 3rem 0;
+}
+
+/* --- Footer --- */
+.footer {
+  background-color: #0f172a;
+  color: #94a3b8;
+  text-align: center;
+  padding: 2rem;
+  margin-top: auto;
+}
+
+@media (max-width: 768px) {
+  .top-nav { gap: 1rem; flex-wrap: wrap; justify-content: center; }
+  .main-layout { flex-direction: column; padding: 1rem; }
+  .sidebar { position: static; width: 100%; }
+  .content-area { padding: 1.5rem; }
+}
