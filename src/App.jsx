@@ -12,9 +12,9 @@ function App() {
       case 'about':
         return (
           <article className="content-area">
-            <h1>Sobre ProTrader Academy</h1>
+            <h1>Sobre TheGoodTrader</h1>
             <div className="lesson-content">
-              <p>Bienvenidos a ProTrader Academy. Nuestra misión es desmitificar los mercados financieros y proporcionar educación de alta calidad, transparente y basada en la realidad del trading institucional y retail.</p>
+              <p>Bienvenidos a TheGoodTrader. Nuestra misión es desmitificar los mercados financieros y proporcionar educación de alta calidad, transparente y basada en la realidad del trading institucional y retail.</p>
               <p>El trading no es un camino rápido hacia la riqueza, sino una profesión que requiere disciplina, gestión emocional y una estricta gestión de riesgo. Todo el contenido creado en este sitio está diseñado para construir esas bases sólidas.</p>
               <div className="info-box">
                 <strong>Aviso YMYL (Your Money or Your Life):</strong> Todo el contenido de este sitio web es estrictamente educativo. No somos asesores financieros y ninguna información aquí presente debe tomarse como consejo de inversión. Opera bajo tu propio riesgo.
@@ -52,7 +52,7 @@ function App() {
             <h1>Política de Privacidad y Cookies</h1>
             <div className="lesson-content">
               <h2>1. Quiénes somos</h2>
-              <p>La dirección de nuestra web es: https://tusitioweb.com (ProTrader Academy).</p>
+              <p>La dirección de nuestra web es: https://jbbc-33.github.io/TheGoodTrader (TheGoodTrader).</p>
               
               <h2>2. Uso de Cookies y Publicidad de Google (Google AdSense)</h2>
               <p>Este sitio web utiliza Google AdSense para mostrar anuncios. Google, como proveedor asociado, utiliza cookies (incluidas las cookies de DART) para publicar anuncios basados en las visitas previas de los usuarios a este sitio web o a otros sitios de Internet.</p>
@@ -105,7 +105,7 @@ function App() {
   return (
     <div className="app-container">
       <header className="header">
-        <div className="logo" onClick={() => setCurrentView('course')}>ProTrader Academy</div>
+        <div className="logo" onClick={() => setCurrentView('course')}>TheGoodTrader</div>
         <nav className="top-nav">
           <button 
             className={currentView === 'course' ? 'active-nav' : ''} 
@@ -130,7 +130,7 @@ function App() {
       {currentView === 'course' ? renderContent() : <main className="main-layout">{renderContent()}</main>}
 
       <footer className="footer">
-        <p>&copy; {new Date().getFullYear()} ProTrader Academy. Todos los derechos reservados.</p>
+        <p>&copy; {new Date().getFullYear()} TheGoodTrader. Todos los derechos reservados.</p>
         <p>Aviso Legal: Operar en mercados financieros conlleva alto riesgo. Información estrictamente educativa.</p>
       </footer>
     </div>
