@@ -143,7 +143,7 @@ const PrivacyView = () => (
 function App() {
   return (
     <HelmetProvider>
-      <BrowserRouter basename="/TheGoodTrader">
+      <BrowserRouter>
         <div className="app-container">
           
           <header className="header">
