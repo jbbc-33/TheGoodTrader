@@ -1,321 +1,285 @@
 export const courseData = [
   {
     id: "intro",
-    title: "Lección 1: Introducción al Trading Manual y Mercados",
+    title: "Lección 1: Introducción al Trading Manual y Mercados Financieros",
     content: `
       <h2>¿Qué es el Trading Manual y por qué elegirlo?</h2>
-      <p>El <strong>trading manual</strong> es el arte de analizar los mercados financieros tomando decisiones deliberadas basadas en tu propio análisis, sin depender de algoritmos de ejecución automática. Es ideal para quienes desean mantener control total sobre entradas, salidas y gestión emocional.</p>
+      <p>El <strong>trading manual</strong> es el arte y la disciplina de analizar los mercados financieros para tomar decisiones deliberadas basadas en tu propio análisis técnico y fundamental. A diferencia del trading algorítmico o los bots, aquí tú tienes el control total: ejecutas las entradas, gestionas las salidas y afinas tu inteligencia emocional.</p>
 
-      <p>Ventajas clave: control del riesgo en tiempo real; adaptación a noticias y contexto macro; aprendizaje acelerado de la lectura del precio. Desventajas: requiere disciplina, tiempo y una curva de aprendizaje.</p>
+      <p>Aprender <strong>trading manual desde cero</strong> te otorga ventajas competitivas invaluables: control del riesgo en tiempo real, adaptación instantánea a noticias macroeconómicas y el desarrollo de una habilidad vitalicia para leer el precio. La principal desventaja es la curva de aprendizaje; requiere disciplina férrea, paciencia y control emocional.</p>
 
-      <img src="https://images.unsplash.com/photo-1611974789855-9c2a0a7236a3?auto=format&fit=crop&w=800&q=80" alt="Trader operando manualmente en múltiples pantallas" class="content-img" />
+      <img src="https://images.unsplash.com/photo-1611974789855-9c2a0a7236a3?auto=format&fit=crop&w=800&q=80" alt="Trader operando manualmente en múltiples pantallas analizando gráficos" class="content-img" />
 
-      <h3>Mercados y sus características</h3>
+      <h3>Los Mejores Mercados para Hacer Trading</h3>
       <ul>
-        <li><strong>Forex (Divisas):</strong> Mercado descentralizado, alta liquidez y spreads variables; ideal para intradía y scalping.</li>
-        <li><strong>Índices Bursátiles:</strong> Representan carteras amplias; útiles para swing y day trading con correlaciones macro.</li>
-        <li><strong>Criptomonedas:</strong> Volatilidad alta, operable 24/7; exige gestión de riesgo y conocimiento de exchanges.</li>
-        <li><strong>Commodities:</strong> Sensibles a inventarios y geopolítica; útiles para diversificar estrategias.</li>
+        <li><strong>Forex (Mercado de Divisas):</strong> El mercado más líquido del mundo. Opera 24/5 con spreads ajustados. Es ideal para estrategias de <em>day trading</em> y <em>scalping</em> debido a su alta volatilidad en sesiones clave.</li>
+        <li><strong>Índices Bursátiles (Nasdaq, S&P 500):</strong> Representan la salud económica general. Excelentes para el <em>swing trading</em> y operativas basadas en horarios de apertura (ej. Open de Nueva York).</li>
+        <li><strong>Criptomonedas (Bitcoin, Ethereum):</strong> Mercado abierto 24/7 con volatilidad extrema. Exige una estricta <strong>gestión de riesgo</strong> y un profundo conocimiento de los niveles de liquidez.</li>
+        <li><strong>Materias Primas (Oro, Petróleo):</strong> Activos muy técnicos y sensibles a eventos geopolíticos. El oro (XAUUSD) es el favorito de muchos traders manuales por sus movimientos limpios y tendenciales.</li>
       </ul>
 
       <div class="info-box">
-        <strong>💡 Consejo de Oro:</strong> Especialízate en 1–2 mercados al principio. Dominar horarios y comportamiento reduce ruido y mejora la curva de aprendizaje.
+        <strong>💡 Consejo SEO y Práctico:</strong> Para ser un trader rentable, especialízate en 1 o 2 activos (por ejemplo, EUR/USD o Nasdaq). Dominar el comportamiento de un solo activo reduce el ruido del mercado y acelera tu rentabilidad.
       </div>
 
-      <h3>Sesiones de trading y su impacto</h3>
+      <h3>Sesiones Operativas (Killzones)</h3>
       <ol>
-        <li><strong>Sesión Asiática:</strong> Menor volatilidad; buen momento para preparar operaciones.</li>
-        <li><strong>Sesión de Londres:</strong> Alta liquidez; frecuentemente genera la dirección del día.</li>
-        <li><strong>Sesión de Nueva York:</strong> Volatilidad por noticias económicas; ideal para confirmaciones.</li>
+        <li><strong>Sesión Asiática (Tokio/Sídney):</strong> Menor volatilidad, suele crear rangos de consolidación que otras sesiones romperán.</li>
+        <li><strong>Sesión de Londres:</strong> Alta liquidez. A menudo genera el máximo o mínimo del día (manipulación inicial y expansión).</li>
+        <li><strong>Sesión de Nueva York:</strong> Máxima volatilidad por la apertura americana y publicación de noticias económicas. Ideal para buscar continuaciones de tendencia.</li>
       </ol>
-
-      <h3>Checklist inicial para el principiante</h3>
-      <ul>
-        <li>Define capital disponible y aplica la regla del 1%.</li>
-        <li>Elige 1–2 activos y un marco temporal principal.</li>
-        <li>Practica en demo hasta que tu ejecución y gestión emocional sean consistentes.</li>
-      </ul>
     `,
   },
 
   {
     id: "estructura",
-    title: "Lección 2: Estructura del Mercado y Fractalidad",
+    title: "Lección 2: Estructura del Mercado, Tendencias y Fractalidad",
     content: `
-      <h2>El Lenguaje del Precio: Estructura</h2>
-      <p>El precio se mueve en impulsos y retrocesos. Identificar la <strong>estructura del mercado</strong> (tendencia, retroceso, rango) es la base para decidir dirección y tamaño de la posición.</p>
+      <h2>El Lenguaje del Precio: Estructura del Mercado</h2>
+      <p>El mercado no se mueve en línea recta; respira a través de impulsos y retrocesos. Identificar correctamente la <strong>estructura del mercado</strong> es el pilar del <strong>análisis técnico</strong>. Saber si estás en una tendencia o en un rango dicta el 90% del éxito de tu operativa.</p>
 
-      <img src="https://images.unsplash.com/photo-1642543492481-44e81e3914a7?auto=format&fit=crop&w=800&q=80" alt="Gráfico mostrando estructura alcista y bajista" class="content-img" />
+      <img src="https://images.unsplash.com/photo-1642543492481-44e81e3914a7?auto=format&fit=crop&w=800&q=80" alt="Gráfico financiero mostrando estructura alcista, bajista y líneas de tendencia" class="content-img" />
 
-      <h3>Fases del mercado y señales prácticas</h3>
+      <h3>Fases del Mercado (Price Action)</h3>
       <ul>
-        <li><strong>Tendencia Alcista:</strong> Altos Más Altos y Bajos Más Altos. Busca compras en retrocesos a zonas de valor.</li>
-        <li><strong>Tendencia Bajista:</strong> Bajos Más Bajos y Altos Más Bajos. Prioriza ventas en rupturas o rebotes a resistencias.</li>
-        <li><strong>Rango:</strong> Operaciones de rango requieren confirmaciones y stops ajustados; evita operar sin edge claro.</li>
+        <li><strong>Tendencia Alcista (Bull Market):</strong> Secuencia de Altos Más Altos (Higher Highs) y Bajos Más Altos (Higher Lows). La regla de oro: busca compras (Longs) en los retrocesos hacia zonas de soporte.</li>
+        <li><strong>Tendencia Bajista (Bear Market):</strong> Secuencia de Bajos Más Bajos (Lower Lows) y Altos Más Bajos (Lower Highs). La regla de oro: prioriza ventas (Shorts) en los rebotes hacia resistencias.</li>
+        <li><strong>Consolidación o Rango:</strong> El precio lateraliza atrapando liquidez en ambos extremos. Opera los extremos (compra barato, vende caro) o espera el <em>breakout</em> (ruptura) confirmado.</li>
       </ul>
 
-      <h3>Fractalidad y análisis multitemporal (Top‑Down)</h3>
-      <p>Los mismos patrones se repiten en distintos marcos temporales. Un análisis Top‑Down reduce ruido y mejora la relación riesgo/beneficio.</p>
+      <h3>Fractalidad y Análisis Top‑Down (Múltiples Temporalidades)</h3>
+      <p>El mercado es fractal: un patrón que ves en gráficos de 1 minuto está ocurriendo dentro de un patrón más grande en gráficos de 1 hora. El <strong>análisis multitemporal</strong> aumenta drásticamente tu <em>win rate</em> (tasa de acierto):</p>
       <ol>
-        <li>1D: define la tendencia macro y niveles clave.</li>
-        <li>4H/1H: identifica zonas de interés y confluencias.</li>
-        <li>15m/5m: busca el setup exacto y optimiza el stop.</li>
+        <li><strong>Macrotendencia (Diario - 1D):</strong> Define la dirección general e identifica soportes y resistencias históricos.</li>
+        <li><strong>Estructura Media (4H / 1H):</strong> Localiza zonas de oferta y demanda o bloques de órdenes (Order Blocks).</li>
+        <li><strong>Ejecución (15m / 5m):</strong> Encuentra el gatillo de entrada exacto, minimizando el Stop Loss para maximizar el ratio Riesgo/Beneficio.</li>
       </ol>
 
       <div class="info-box">
-        <strong>⚠️ Advertencia:</strong> El mercado pasa la mayor parte del tiempo en consolidación. La paciencia y la selección de setups son esenciales.
+        <strong>⚠️ Concepto Clave:</strong> BOS (Break of Structure) indica la continuación de una tendencia, mientras que CHoCH (Change of Character) alerta sobre un posible cambio de tendencia institucional.
       </div>
-
-      <h3>Ejercicio práctico</h3>
-      <p>Selecciona un activo, marca en 1D los soportes y resistencias, baja a 4H para ver zonas de confluencia y finalmente busca un patrón de entrada en 15m. Registra la operación en tu journal.</p>
     `,
   },
 
   {
     id: "velas",
-    title: "Lección 3: Acción del Precio y Liquidez",
+    title: "Lección 3: Acción del Precio (Price Action) y Liquidez",
     content: `
-      <h2>Anatomía de las Velas Japonesas y su interpretación</h2>
-      <p>Las velas muestran la batalla entre compradores y vendedores. Aprende a leer cuerpo, mechas y volumen para detectar intención institucional y puntos de liquidez.</p>
+      <h2>Anatomía de las Velas Japonesas</h2>
+      <p>Operar con <strong>acción del precio (Price Action)</strong> significa leer el gráfico desnudo, sin depender de indicadores rezagados como el RSI o el MACD. Las velas japonesas te cuentan la historia en tiempo real de la batalla entre compradores (toros) y vendedores (osos).</p>
 
-      <img src="https://images.unsplash.com/photo-1613442301239-ea2478101ea7?auto=format&fit=crop&w=800&q=80" alt="Esquema de velas japonesas y mechas" class="content-img" />
+      <img src="https://images.unsplash.com/photo-1613442301239-ea2478101ea7?auto=format&fit=crop&w=800&q=80" alt="Esquema educativo de velas japonesas, mechas y cuerpos" class="content-img" />
 
-      <h3>Patrones operables y su contexto</h3>
+      <h3>Patrones de Velas de Alta Probabilidad</h3>
       <ul>
-        <li><strong>Pin Bar:</strong> Rechazo claro; mayor validez en zonas de confluencia.</li>
-        <li><strong>Vela Envolvente:</strong> Indica cambio de momentum; útil en rupturas y giros.</li>
-        <li><strong>Doji:</strong> Indecisión; mayor peso si aparece en niveles clave o tras tendencia prolongada.</li>
+        <li><strong>Pin Bar (Vela Martillo o Estrella Fugaz):</strong> Una mecha larga que rechaza un nivel clave. Representa una trampa institucional: el precio fue empujado hacia una zona, pero las instituciones absorbieron todas las órdenes y revirtieron el precio.</li>
+        <li><strong>Vela Envolvente (Engulfing):</strong> El cuerpo de la vela actual cubre completamente a la vela anterior. Es un fuerte indicador de inyección de volumen y cambio de momentum.</li>
+        <li><strong>Doji:</strong> Cuerpos muy pequeños que indican indecisión. Adquieren gran importancia operativa cuando aparecen justo en niveles de soporte o resistencia (posible giro).</li>
       </ul>
 
-      <h3>Liquidez, stops y fakeouts</h3>
-      <p>Los grandes participantes buscan liquidez para ejecutar órdenes grandes. Aprende a identificar trampas de liquidez (stop hunts) y a operar la reacción posterior en lugar de la ruptura inicial.</p>
-
-      <h3>Volumen y confirmación</h3>
-      <p>El volumen confirma la validez de movimientos. Un breakout con volumen creciente tiene mayor probabilidad de continuación; un breakout sin volumen suele fallar.</p>
+      <h3>Trampas de Liquidez y Stop Hunts (Caza de Stops)</h3>
+      <p>Los grandes bancos (Smart Money) necesitan <strong>liquidez</strong> para ejecutar sus posiciones gigantescas. ¿Dónde está esa liquidez? En los Stop Loss de los traders minoristas, situados justo por encima de resistencias obvias o por debajo de soportes evidentes.</p>
+      <p><strong>Cómo operarlo:</strong> No operes la ruptura inicial. Espera a que el precio rompa un nivel, saque a los traders impacientes (fakeout), y vuelve a entrar en la dirección contraria cuando el precio reingrese al rango con fuerza.</p>
 
       <div class="info-box">
-        <strong>🔍 Tip práctico:</strong> Combina lectura de velas con zonas de liquidez y niveles de interés para filtrar señales falsas.
+        <strong>🔍 Tip de Price Action:</strong> El volumen es el detector de mentiras del mercado. Un rompimiento de nivel sin un incremento de volumen suele ser una manipulación (toma de liquidez).
       </div>
-
-      <h3>Ejercicio práctico</h3>
-      <p>En un gráfico 15m, identifica una zona de soporte/resistencia en 1H. Espera una vela de rechazo (pin bar o engulfing) en la zona y confirma con aumento de volumen antes de considerar la entrada.</p>
     `,
   },
 
   {
     id: "riesgo",
-    title: "Lección 4: Gestión de Riesgo Profesional",
+    title: "Lección 4: Gestión de Riesgo y Money Management",
     content: `
-      <h2>Preservación del capital: la regla número uno</h2>
-      <p>Sin capital no hay aprendizaje. La gestión de riesgo convierte una estrategia en un negocio sostenible. Define cuánto estás dispuesto a perder por operación y por día.</p>
+      <h2>Preservación del Capital: El Santo Grial del Trading</h2>
+      <p>La estrategia más rentable del mundo fracasará sin una correcta <strong>gestión de riesgo (Money Management)</strong>. El objetivo principal de un trader manual no es ganar dinero rápido, sino proteger su capital para sobrevivir a la varianza matemática del mercado.</p>
 
-      <img src="https://images.unsplash.com/photo-1579532537598-459ecdaf39cc?auto=format&fit=crop&w=800&q=80" alt="Finanzas, calculadora y gestión monetaria" class="content-img" />
+      <img src="https://images.unsplash.com/photo-1579532537598-459ecdaf39cc?auto=format&fit=crop&w=800&q=80" alt="Gráficos financieros y herramientas para la gestión monetaria" class="content-img" />
 
-      <h3>La regla del 1% y position sizing</h3>
-      <p>Nunca arriesgues más del 1%–2% del capital por operación. Calcula el tamaño de la posición con la fórmula: <em>Lotaje = (Capital * Riesgo%) / (StopLossPips * ValorPorPip)</em>.</p>
+      <h3>La Regla del 1% y el Tamaño de Posición (Position Sizing)</h3>
+      <p>Un trader profesional <strong>nunca arriesga más del 1% o 2% de su cuenta total en una sola operación</strong>. Esto garantiza que puedas encadenar una racha de 10 pérdidas consecutivas (Drawdown) y aún retener más del 80% de tu capital.</p>
+      <p>Fórmula universal para el cálculo de lotaje: <br>
+      <em>Tamaño de Lotes = (Capital x Porcentaje de Riesgo) / (Pips de Stop Loss x Valor del Pip)</em></p>
 
-      <h3>Gestión de rachas y límites diarios</h3>
-      <p>Define límites: si pierdes X operaciones consecutivas o X% del capital en un día, detén la operativa y revisa el plan. Esto evita decisiones emocionales y revenge trading.</p>
+      <h3>Ratio Riesgo/Beneficio (Risk:Reward)</h3>
+      <p>Es la relación entre lo que estás dispuesto a perder y lo que esperas ganar. Buscar un Ratio R:R mínimo de 1:2 significa arriesgar $100 para ganar $200. Las matemáticas del trading demuestran que con un RR de 1:2, <strong>solo necesitas un 34% de aciertos (Win Rate) para ser rentable a largo plazo</strong>.</p>
 
-      <h3>Uso de órdenes y gestión activa</h3>
-      <p>Usa órdenes limitadas para entradas y trailing stops para proteger ganancias. Evita mover stops por impulso; si cambias el stop, documenta la razón en tu journal.</p>
-
-      <div class="info-box">
-        <strong>📈 Matemática del trading:</strong> Con un R:R de 1:2, necesitas acertar al menos 34% de las operaciones para ser rentable. Calcula tu tasa de aciertos y ajusta tamaño y R:R en consecuencia.
-      </div>
-
-      <h3>Ejercicio práctico</h3>
-      <p>Simula 50 operaciones con tu tamaño real en demo y registra drawdowns máximos. Ajusta riesgo por operación hasta que el drawdown sea tolerable para tu psicología.</p>
+      <h3>Reglas Antirruina</h3>
+      <ul>
+        <li><strong>Stop Loss Fijo:</strong> Colócalo al abrir la operación y nunca lo alejes mientras estás en negativo.</li>
+        <li><strong>Límite de Pérdida Diaria:</strong> Si pierdes un 3% de tu cuenta en un día, apaga las pantallas. El mercado estará ahí mañana; tu objetividad no.</li>
+        <li><strong>Trailing Stop:</strong> Asegura ganancias parciales moviendo tu Stop Loss al punto de entrada (Breakeven) una vez que el movimiento avanza a tu favor.</li>
+      </ul>
     `,
   },
 
   {
     id: "psicologia",
-    title: "Lección 5: Psicotrading y Sesgos Cognitivos",
+    title: "Lección 5: Psicotrading y Control de Sesgos Cognitivos",
     content: `
-      <h2>Control mental: el factor decisivo</h2>
-      <p>El trading es 20% técnica y 80% psicología. Controlar emociones, expectativas y sesgos es tan importante como la estrategia.</p>
+      <h2>Psicotrading: El 80% del Éxito en los Mercados</h2>
+      <p>El mercado financiero es un espejo que refleja tus peores defectos: avaricia, miedo, impaciencia y ego. El <strong>psicotrading</strong> es el entrenamiento mental para ejecutar tu plan de forma robótica, incluso frente a la incertidumbre absoluta.</p>
 
-      <img src="https://images.unsplash.com/photo-1551288049-bebda4e38f71?auto=format&fit=crop&w=800&q=80" alt="Persona analizando datos de forma reflexiva" class="content-img" />
+      <img src="https://images.unsplash.com/photo-1551288049-bebda4e38f71?auto=format&fit=crop&w=800&q=80" alt="Trader reflexionando, control emocional y disciplina en trading" class="content-img" />
 
-      <h3>Sesgos comunes y cómo mitigarlos</h3>
+      <h3>Los 3 Demonios del Trader Manual</h3>
       <ul>
-        <li><strong>FOMO:</strong> Usa reglas de entrada y un checklist antes de operar.</li>
-        <li><strong>Revenge Trading:</strong> Implementa un cooldown tras pérdidas (ej. no operar 24 horas).</li>
-        <li><strong>Overtrading:</strong> Limita operaciones diarias y prioriza calidad sobre cantidad.</li>
+        <li><strong>FOMO (Fear Of Missing Out):</strong> El miedo a quedarse fuera de un gran movimiento. Te hace comprar en el punto más alto por ansiedad. <em>Solución: Entiende que cada día hay docenas de nuevas oportunidades. Si se fue el tren, espera al siguiente.</em></li>
+        <li><strong>Revenge Trading (Trading de Venganza):</strong> Operar por rabia inmediatamente después de una pérdida para "recuperar" el dinero. Suele terminar en pérdidas mayores. <em>Solución: Implanta una regla estricta de levantarte de la silla durante 15 minutos tras tocar un Stop Loss.</em></li>
+        <li><strong>Overtrading (Sobreoperar):</strong> Abrir demasiadas operaciones por aburrimiento o necesidad de dopamina, diluyendo tu ventaja estadística. <em>Solución: Limita tu operativa a un máximo de 2-3 setups de alta calidad por sesión.</em></li>
       </ul>
 
-      <h3>Rutinas para disciplina</h3>
-      <p>Rutinas diarias (pre‑market checklist, revisión post‑market, journaling) reducen la variabilidad emocional y mejoran la consistencia.</p>
-
       <div class="info-box">
-        <strong>🧠 Ejercicio práctico:</strong> Antes de cada operación responde: ¿Por qué entro? ¿Cuál es mi riesgo exacto? ¿Qué cambiaría si pierdo?
+        <strong>🧠 Ejercicio de Disciplina:</strong> Piensa en probabilidades, no en dinero. Antes de dar clic en "Comprar" o "Vender", pregúntate: "¿Estoy operando lo que veo en el gráfico, o lo que deseo que pase?".
       </div>
     `,
   },
 
   {
     id: "plan",
-    title: "Lección 6: Creando tu Plan de Trading",
+    title: "Lección 6: Cómo Crear tu Plan de Trading y Bitácora",
     content: `
-      <h2>Tu plan: la constitución de tu negocio de trading</h2>
-      <p>Un plan escrito elimina la improvisación. Define mercados, horarios, gestión de riesgo, setups, criterios de salida y reglas de revisión.</p>
+      <h2>Tu Plan de Trading: El Mapa hacia la Consistencia</h2>
+      <p>Un <strong>plan de trading</strong> escrito separa a los profesionales de los apostadores. Es un documento vivo que dicta exactamente qué, cuándo y cómo operas, eliminando cualquier margen para la improvisación impulsiva.</p>
 
-      <h3>Elementos esenciales</h3>
+      <h3>Estructura de un Plan Profesional</h3>
       <ol>
-        <li><strong>Mercados y horarios:</strong> Qué operar y cuándo.</li>
-        <li><strong>Gestión de riesgo:</strong> Riesgo por operación, límites diarios y semanales.</li>
-        <li><strong>Modelo de entrada:</strong> Checklist paso a paso para validar la entrada.</li>
-        <li><strong>Criterios de salida:</strong> Objetivos, trailing stops y reglas de gestión.</li>
+        <li><strong>Filosofía y Horarios:</strong> Ej. "Soy un day trader de acción del precio. Solo opero el EUR/USD durante la Killzone de Londres (2:00 AM - 5:00 AM EST)".</li>
+        <li><strong>Gestión Monetaria:</strong> "Arriesgo un máximo de 1% por trade. Máxima pérdida diaria: 2%. Objetivo mínimo de RR: 1:2".</li>
+        <li><strong>Setup de Entrada (El Gatillo):</strong> Detalla paso a paso las condiciones obligatorias. (Ej. Tendencia alcista en 1H + Retroceso al nivel 61.8% de Fibonacci + Patrón Envolvente Alcista en 15m).</li>
+        <li><strong>Gestión de la Operación:</strong> "Moveré a Breakeven cuando el precio alcance el ratio 1:1. Cerraré el 50% de la posición en el primer nivel de resistencia".</li>
       </ol>
 
-      <div class="info-box">
-        <strong>📝 Trading Journal:</strong> Registra fecha, activo, tamaño, stop, objetivo, resultado y estado emocional. Analiza semanal y mensualmente.
-      </div>
-
-      <h3>Plantilla rápida de checklist de entrada</h3>
+      <h3>La Bitácora de Trading (Trading Journal)</h3>
+      <p>No puedes mejorar lo que no mides. Documentar tus trades es obligatorio. Anota en un Excel o software especializado:</p>
       <ul>
-        <li>¿Tendencia en 1H/4H a favor?</li>
-        <li>¿Precio en zona de confluencia (soporte/resistencia, media, fibo)?</li>
-        <li>¿Patrón de vela de rechazo o confirmación?</li>
-        <li>¿Riesgo calculado y aceptable?</li>
+        <li>Fecha, Activo, Dirección (Largo/Corto).</li>
+        <li>Captura de pantalla de la entrada y de la salida.</li>
+        <li><strong>Columna Emocional:</strong> ¿Sentías miedo, seguridad o aburrimiento al ejecutar? Revisar esto los fines de semana te mostrará patrones destructivos en tu comportamiento.</li>
       </ul>
     `,
   },
 
   {
     id: "estrategias",
-    title: "Lección 7: Estrategias Operables para Trading Manual",
+    title: "Lección 7: Estrategias de Trading Manual Rentables",
     content: `
-      <h2>Estrategias prácticas y replicables</h2>
-      <p>Presentamos estrategias sencillas, con reglas claras y ejemplos de gestión. Estas estrategias son educativas y deben probarse en demo antes de operar con capital real.</p>
+      <h2>Modelos de Operación Replicables (Setups)</h2>
+      <p>En el trading manual, menos es más. Estas son tres de las <strong>estrategias de trading</strong> más probadas por la industria. Úsalas como punto de partida, hazles backtesting y adáptalas a tu personalidad.</p>
 
-      <h3>Estrategia 1: Pullback a la tendencia (Multi‑timeframe)</h3>
+      <h3>Estrategia 1: El Pullback Multitemporal (Trend Following)</h3>
+      <p>La tendencia es tu amiga. Esta estrategia busca unirse a una tendencia dominante después de una corrección sana.</p>
       <ol>
-        <li>Identifica tendencia en 1D/4H.</li>
-        <li>Espera retroceso a zona de valor en 1H (media, soporte, fibo 38–61%).</li>
-        <li>Busca confirmación en 15m (pin bar, engulfing) y volumen de apoyo.</li>
-        <li>Entrada: orden limitada en la zona de rechazo; Stop: por debajo del mínimo del patrón; Objetivo: 1:2 o niveles de resistencia siguientes.</li>
+        <li><strong>Dirección (4H):</strong> Identifica una clara sucesión de altos y bajos más altos.</li>
+        <li><strong>Zona de Valor (1H):</strong> Espera a que el precio retroceda hacia una Media Móvil (ej. EMA 50), un nivel de soporte previo o el nivel 50% / 61.8% de Fibonacci.</li>
+        <li><strong>Gatillo (15m):</strong> Busca una formación de vela de rechazo (Pin Bar) con incremento de volumen.</li>
+        <li><strong>Ejecución:</strong> Stop Loss estructural (debajo del último mínimo). Take Profit en el último máximo.</li>
       </ol>
 
-      <h3>Estrategia 2: Breakout con confirmación de volumen</h3>
+      <h3>Estrategia 2: Smart Money y Toma de Liquidez (Sweep)</h3>
+      <p>Basada en conceptos de order flow y huella institucional.</p>
       <ol>
-        <li>Marca rango o nivel clave en 1H/15m.</li>
-        <li>Espera ruptura con aumento de volumen y cierre por encima/por debajo del nivel.</li>
-        <li>Entrada: en cierre de vela de confirmación o en pullback al nivel roto.</li>
-        <li>Stop: por debajo/encima del nivel roto; Objetivo: proyección del rango o múltiplos del riesgo.</li>
-      </ol>
-
-      <h3>Estrategia 3: Operar zonas de liquidez (Smart Money Concept básico)</h3>
-      <ol>
-        <li>Identifica zonas donde se acumula liquidez (tops y bottoms visibles, órdenes pendientes).</li>
-        <li>Observa búsqueda de liquidez (falsas rupturas) y espera la reacción institucional (velas de rechazo con volumen).</li>
-        <li>Entrada: en la reacción; Stop: fuera de la zona de toma de liquidez; Objetivo: estructura previa o niveles de interés.</li>
+        <li>Identifica máximos o mínimos del día anterior (Asian High/Low, Previous Daily High/Low).</li>
+        <li>Espera a que el precio supere ese nivel por unos pocos pips, disparando los Stop Loss (caza de liquidez).</li>
+        <li>Si el precio rechaza agresivamente ese nivel y cierra dentro del rango anterior, entra a mercado en la dirección del rechazo.</li>
       </ol>
 
       <div class="info-box">
-        <strong>⚠️ Nota:</strong> Estas estrategias son educativas. No constituyen asesoramiento financiero. Prueba en demo y documenta cada operación.
+        <strong>⚠️ Importante:</strong> El Santo Grial no existe. Ninguna estrategia tiene un 100% de efectividad. La rentabilidad nace de aplicar una de estas estrategias 100 veces seguidas con el mismo nivel de riesgo.
       </div>
-
-      <h3>Backtest rápido de una estrategia</h3>
-      <p>Selecciona 50–100 operaciones históricas en el activo y marco temporal elegido. Registra entradas, stops, objetivos y resultado. Calcula tasa de aciertos, R:R medio y drawdown máximo.</p>
     `,
   },
 
   {
     id: "orderflow",
-    title: "Lección 8: Fundamentos de Order Flow y Lectura Institucional",
+    title: "Lección 8: Order Flow, Oferta y Demanda Básico",
     content: `
-      <h2>Introducción al flujo de órdenes para traders manuales</h2>
-      <p>El order flow muestra la interacción entre órdenes de mercado y limitadas. Aunque el acceso completo a order flow requiere herramientas avanzadas, entender los conceptos básicos mejora la lectura de la acción del precio.</p>
+      <h2>Leyendo las Intenciones del Smart Money</h2>
+      <p>Aunque el <strong>Trading Manual</strong> clásico se basa en la acción del precio, incorporar principios básicos de <strong>Order Flow</strong> e instituciones financieras te pone en la mente de los "creadores de mercado" (Market Makers).</p>
 
-      <h3>Conceptos clave</h3>
+      <h3>Conceptos de Oferta y Demanda</h3>
       <ul>
-        <li><strong>Liquidez:</strong> Zonas donde se concentran órdenes (stop loss, órdenes limitadas).</li>
-        <li><strong>Imbalance:</strong> Desequilibrio entre compradores y vendedores que puede preceder movimientos fuertes.</li>
-        <li><strong>Absorción:</strong> Cuando grandes órdenes limitadas detienen un movimiento y provocan reversión.</li>
+        <li><strong>Order Blocks (Bloques de Órdenes):</strong> Son las últimas velas contrarias antes de un movimiento institucional violento. El mercado suele regresar a estas zonas para mitigar posiciones, ofreciendo entradas de altísima precisión.</li>
+        <li><strong>Imbalance (Fair Value Gap - FVG):</strong> Vacíos de liquidez creados por movimientos explosivos donde no hubo un intercambio justo entre compradores y vendedores. El precio actúa como un imán para rellenar estos vacíos.</li>
+        <li><strong>Absorción:</strong> Cuando observas en un soporte que las velas intentan bajar pero cierran repetidamente con mechas largas inferiores. Significa que las instituciones están limitando el precio y "absorbiendo" todas las ventas minoristas para acumular posiciones compradoras.</li>
       </ul>
 
-      <h3>Cómo aplicar order flow sin herramientas avanzadas</h3>
-      <ol>
-        <li>Observa velas con mechas largas y volumen alto en zonas clave (posible absorción).</li>
-        <li>Detecta rupturas que vuelven rápidamente al nivel (falso breakout) y espera la reacción.</li>
-        <li>Usa estas señales como filtro adicional para tus entradas y salidas.</li>
-      </ol>
-
-      <div class="info-box">
-        <strong>🔧 Recomendación:</strong> Si decides profundizar, estudia herramientas de DOM/Footprint y practica en simuladores antes de operar en real.
-      </div>
+      <p><strong>Aplicación Práctica:</strong> Trata de alinear tus entradas de Price Action (ej. una vela envolvente) justo dentro de un Order Block no mitigado o tras rellenar un Imbalance. Esa confluencia dispara tu probabilidad de éxito.</p>
     `,
   },
 
   {
     id: "backtesting",
-    title: "Lección 9: Backtesting, Forward Testing y Validación de Estrategias",
+    title: "Lección 9: Backtesting y Validación Estadística",
     content: `
-      <h2>Cómo validar una estrategia antes de arriesgar capital</h2>
-      <p>Backtesting y forward testing son pasos imprescindibles para comprobar si una estrategia tiene edge. Sin validación, cualquier resultado es anecdótico.</p>
+      <h2>Cómo Crear Confianza Ciega en tu Estrategia</h2>
+      <p>El <strong>Backtesting</strong> es el proceso de retroceder en el tiempo en un gráfico histórico para simular tu estrategia y obtener datos estadísticos fiables. Es el único antídoto contra el miedo y la duda al operar.</p>
 
-      <h3>Proceso de backtesting</h3>
+      <h3>Fases de un Backtesting Profesional</h3>
       <ol>
-        <li>Define reglas exactas de entrada, stop y salida.</li>
-        <li>Recopila datos históricos del activo y marco temporal.</li>
-        <li>Registra cada operación: entrada, stop, objetivo, resultado y notas.</li>
-        <li>Calcula métricas: tasa de aciertos, expectancy, drawdown máximo y número de operaciones.</li>
+        <li><strong>Definición Mecánica:</strong> Tus reglas deben ser tan exactas que un ordenador podría seguirlas. Sin ambigüedades.</li>
+        <li><strong>Recopilación de Datos (TradingView Replay Mode):</strong> Retrocede 6 meses a 1 año en el activo elegido. Avanza vela a vela y anota cada setup que cumpla tus reglas.</li>
+        <li><strong>Métricas Clave a Calcular:</strong>
+          <ul>
+            <li><strong>Win Rate:</strong> Porcentaje de operaciones ganadoras (Ej. 45%).</li>
+            <li><strong>Payoff Ratio:</strong> Beneficio promedio vs Pérdida promedio (Ej. Gano $200 de media, pierdo $100 = Ratio 2).</li>
+            <li><strong>Maximum Drawdown:</strong> Tu peor racha histórica. Si sabes que tu estrategia puede perder 7 veces seguidas, no entrarás en pánico cuando te pase en real.</li>
+          </ul>
+        </li>
       </ol>
 
-      <h3>Forward testing y demo</h3>
-      <p>Tras un backtest positivo, opera la estrategia en demo (forward testing) durante un periodo representativo (ej. 3 meses o 100 operaciones) para validar ejecución y psicología.</p>
-
-      <div class="info-box">
-        <strong>📊 Métrica clave:</strong> Expectancy = (WinRate * AvgWin) - (LossRate * AvgLoss). Una expectancy positiva es necesaria pero no suficiente; considera también el drawdown y la varianza.
-      </div>
+      <h3>Forward Testing (Cuenta Demo)</h3>
+      <p>Una vez completado el backtest histórico, opera la estrategia en tiempo real usando dinero virtual (demo) durante al menos 1 o 2 meses. Esto pondrá a prueba tu capacidad de ejecución en vivo y tu paciencia.</p>
     `,
   },
 
   {
     id: "herramientas",
-    title: "Lección 10: Herramientas, Plataformas y Gestión Operativa",
+    title: "Lección 10: Herramientas, Plataformas y Gestión del Entorno",
     content: `
-      <h2>Selecciona herramientas que soporten tu plan</h2>
-      <p>Una buena plataforma facilita la ejecución, el análisis y el journaling. Prioriza estabilidad, velocidad y herramientas de dibujo y alertas.</p>
+      <h2>El Arsenal del Trader de Acción del Precio</h2>
+      <p>Para analizar el mercado de forma manual necesitas software profesional, rápido y estable. Las herramientas no te harán rentable, pero eliminarán fricciones técnicas.</p>
 
-      <h3>Checklist de plataformas</h3>
+      <h3>Plataformas de Análisis y Ejecución</h3>
       <ul>
-        <li>Gráficos con múltiples marcos temporales y alertas.</li>
-        <li>Posibilidad de órdenes limitadas y OCO (one‑cancels‑other).</li>
-        <li>Historial y exportación de operaciones para journaling.</li>
+        <li><strong>TradingView:</strong> El estándar de la industria para el análisis técnico. Indispensable por sus herramientas de dibujo intuitivas, alertas de precios y la función de *Replay* para backtesting.</li>
+        <li><strong>MetaTrader 4 y 5 (MT4/MT5):</strong> Las plataformas de ejecución más usadas por brokers de Forex y CFDs. Ligeras y fiables para ejecutar tus operaciones.</li>
+        <li><strong>cTrader o NinjaTrader:</strong> Excelentes alternativas más modernas con grandes funcionalidades para gestión avanzada de órdenes.</li>
       </ul>
 
-      <h3>Rutinas operativas</h3>
+      <h3>El Entorno Operativo Libre de Ruido</h3>
       <ol>
-        <li>Pre‑market: revisar noticias, niveles y plan del día.</li>
-        <li>Durante sesión: seguir checklist de entrada y gestionar posiciones.</li>
-        <li>Post‑market: registrar operaciones y analizar errores.</li>
+        <li><strong>Calculadora de Posiciones:</strong> Usa calculadoras web de riesgo (como las de MyFxBook) para saber exactamente qué lotaje usar antes de entrar. Nunca calcules mentalmente bajo presión.</li>
+        <li><strong>Calendario Económico:</strong> Consulta ForexFactory o Investing.com antes de tu sesión. <em>Regla de oro de la gestión de riesgo: Nunca mantengas posiciones abiertas a corto plazo durante la publicación del NFP, IPC (CPI) o decisiones de tipos de interés, la volatilidad barrerá tus stops.</em></li>
       </ol>
-
-      <div class="info-box">
-        <strong>🔐 Seguridad:</strong> Usa 2FA, contraseñas únicas y verifica la reputación de la contraparte antes de depositar fondos.
-      </div>
     `,
   },
 
   {
     id: "legal",
-    title: "Lección 11: Ética, Responsabilidad y Buenas Prácticas",
+    title: "Lección 11: Ética, Regulación y Cómo Evitar Estafas",
     content: `
-      <h2>Ética y responsabilidad del trader</h2>
-      <p>Operar con transparencia y responsabilidad protege tu capital y reputación. Evita prácticas de riesgo extremo y sé honesto en la comunicación de resultados.</p>
+      <h2>Protege tu Capital antes de Operar</h2>
+      <p>El mundo del trading atrae mucho dinero, y con ello, a actores malintencionados. Elegir un buen broker y entender el entorno legal es el "Nivel Cero" de tu carrera como trader manual.</p>
 
-      <h3>Buenas prácticas</h3>
+      <h3>Cómo Elegir un Broker Regulado (Tier 1)</h3>
+      <p>Tu dinero no está seguro si tu broker no está vigilado por entidades estrictas. Evita brokers ubicados en paraísos fiscales sin reputación. Busca entidades reguladas por:</p>
       <ul>
-        <li>Documenta resultados reales y evita presentar backtests sin contexto.</li>
-        <li>Declara conflictos de interés si compartes señales o servicios.</li>
-        <li>Educa con claridad: distingue entre educación y asesoramiento personalizado.</li>
+        <li><strong>FCA</strong> (Reino Unido)</li>
+        <li><strong>ASIC</strong> (Australia)</li>
+        <li><strong>SEC / CFTC</strong> (Estados Unidos)</li>
+        <li><strong>CySEC</strong> (Europa)</li>
+      </ul>
+
+      <h3>Red Flags (Banderas Rojas) en la Industria</h3>
+      <ul>
+        <li>Cuentas administradas o "bots mágicos" que prometen rentabilidades mensuales fijas e irreales. (El trading es probabilidad, no renta fija).</li>
+        <li>Influencers que no muestran sus cuentas auditadas (MyFxBook) pero presumen de lujos.</li>
+        <li>Empresas de fondeo (Prop Firms) con reglas ocultas diseñadas estadísticamente para que suspendas tus evaluaciones.</li>
       </ul>
 
       <div class="info-box">
-        <strong>⚖️ Nota legal:</strong> Este curso es educativo. No constituye asesoramiento financiero. Consulta a un profesional para decisiones personalizadas.
+        <strong>⚖️ Disclaimer Educativo:</strong> El trading conlleva un alto riesgo de pérdida de capital. Este curso está diseñado exclusivamente con fines formativos y de análisis técnico. No representa asesoramiento financiero personalizado. Estudia, practica en demo y asume la responsabilidad 100% total de tus decisiones.
       </div>
     `,
   }

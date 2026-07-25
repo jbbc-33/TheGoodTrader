@@ -3,22 +3,20 @@
   "private": true,
   "version": "0.0.0",
   "type": "module",
-
   "homepage": "https://jbbc-33.github.io/TheGoodTrader/",
-
   "scripts": {
     "dev": "vite",
     "build": "vite build",
     "lint": "oxlint",
     "preview": "vite preview",
-
     "predeploy": "npm run build",
     "deploy": "gh-pages -d dist"
-
   },
   "dependencies": {
     "react": "^19.2.7",
-    "react-dom": "^19.2.7"
+    "react-dom": "^19.2.7",
+    "react-helmet-async": "^3.0.0",
+    "react-router-dom": "^7.11.0"
   },
   "devDependencies": {
     "@types/react": "^19.2.17",
