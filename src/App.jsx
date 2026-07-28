@@ -17,6 +17,8 @@ const CourseView = () => {
         <title>{activeLesson.title} | Curso de Trading TheGoodTrader</title>
         <meta name="description" content={`Aprende sobre: ${activeLesson.title}. Curso gratuito de trading manual, acción del precio y gestión de riesgo.`} />
         <link rel="canonical" href="https://www.thegoodtrader.site/curso-completo" />
+        <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-5297392247301984"
+     crossorigin="anonymous"></script>
       </Helmet>
 
       <div className="main-layout">
@@ -56,6 +58,8 @@ const AboutView = () => (
       <title>Sobre Nosotros | TheGoodTrader</title>
       <meta name="description" content="Conoce nuestra misión. En TheGoodTrader desmitificamos los mercados financieros con educación basada en la realidad del trading institucional." />
       <link rel="canonical" href="https://www.thegoodtrader.site/sobre-nosotros" />
+      <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-5297392247301984"
+     crossorigin="anonymous"></script>
     </Helmet>
     <main className="main-layout">
       <article className="content-area">
@@ -81,6 +85,8 @@ const ContactView = () => (
       <title>Contacto | TheGoodTrader</title>
       <meta name="description" content="Contacta con el equipo de TheGoodTrader para dudas sobre el curso de trading o consultas comerciales. Respondemos en 24-48 horas." />
       <link rel="canonical" href="https://www.thegoodtrader.site/contacto" />
+      <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-5297392247301984"
+     crossorigin="anonymous"></script>
     </Helmet>
     <main className="main-layout">
       <article className="content-area">
@@ -114,6 +120,8 @@ const PrivacyView = () => (
       <title>Política de Privacidad y Cookies | TheGoodTrader</title>
       <meta name="description" content="Conoce nuestra política de privacidad, uso de cookies y cómo protegemos tus datos en TheGoodTrader." />
       <link rel="canonical" href="https://www.thegoodtrader.site/privacidad" />
+      <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-5297392247301984"
+     crossorigin="anonymous"></script>
     </Helmet>
     <main className="main-layout">
       <article className="content-area">
